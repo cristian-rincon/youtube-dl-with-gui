@@ -5,7 +5,7 @@ from downloader import YoutubeDownloader
 class YTDGUI(object):
     def __init__(self):
         self.layout = [
-            [sg.Text("Enter the video that you want to download from youtube")],
+            [sg.Text("Enter the video that you want to download from youtube", text_color="black", background_color="white")],
             [sg.InputText()],
             [sg.Submit(), sg.Cancel()],
         ]
